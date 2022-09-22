@@ -13,6 +13,7 @@
   <li>Sistema de Login/Cadastro</li>
   <li>Implementado Esqueci minha senha </li>
   <li>Descrição detalhada ao clicar na imagem do medicamento </li>
+  <li>Ao clicar no WhatsApp da farmácia, o redirecionamento é feito para o https://wa.me/</li>
 <ul>
 
  
