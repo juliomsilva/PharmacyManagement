@@ -26,7 +26,8 @@
   
 ![telaLogin](https://user-images.githubusercontent.com/108702111/191635479-54040ab3-3604-4f0e-9796-4b73b6451d17.png)
 ![Medicamentos](https://user-images.githubusercontent.com/108702111/191635498-2ee177b8-84f6-4981-bb34-597ef823c913.png)
-  
+  ![descMedicamento](https://user-images.githubusercontent.com/108702111/191638984-40925a46-2620-446a-a051-46289d99dfff.png)
+
 ![Mapa](https://user-images.githubusercontent.com/108702111/191635560-ac993780-af18-4383-8686-9c3f84a8259f.png)
 ![CadastroFarmacia](https://user-images.githubusercontent.com/108702111/191635565-0bdd5538-6fd5-4937-be02-f4f5f7082cfb.png)
 ![CadastrarMedicamento](https://user-images.githubusercontent.com/108702111/191635566-d2be7acc-c4d2-4dad-9bb7-25010b0a8e5c.png)
