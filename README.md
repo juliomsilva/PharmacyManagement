@@ -1,6 +1,15 @@
 <h1>PharmacyManagement</h1>
  <p>A DEVinPharmacy LTDA, uma renomada empresa do ramo farmacêutico, está expandindo a sua rede de lojas. Por conta da expansão, o time de gestão necessita da criação de um sistema online, intitulado PharmacyManagement, para gerenciamento de medicamentos e farmácias. O seu perfil chamou a atenção dos gestores para a criação do protótipo front-end do sistema que deverá ser codificado em <strong>React</<strong></p>
  <hr>
+ 
+ <h2>Sobre o Projeto: </h2>
+ 
+ Como rodar: Clone o repositório, npm install para instalar as dependencias e npm start para inciar
+ 
+ IDE utilizada: Visual Studio
+ 
+ Projeto feito com React, Bootstrap e CSS
+ 
 
 <h1>Conteudo do Projeto</h1>
 <ul>
