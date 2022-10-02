@@ -8,10 +8,15 @@ export default function Mapa() {
   const [farmacia, setFarmacia] = useState(farmacias);
 
   useEffect(() => {
-    let farmacias = JSON.parse(localStorage.getItem("Farmacias")) ?? [];
+    // essa variável já foi declarada
+    // let farmacias = JSON.parse(localStorage.getItem("Farmacias")) ?? [];
     setFarmacia(farmacias);
-  }, [farmacias]);
+    
+    // esse useEffect está fazendo o componente renderizar infinitamente - se fosse uma aplicação real ele bateria na API milhões de vezes, impactando financeiramente a empresa. Tenha cuidado
+    // por essa razão removi o farmacias do array
+  }, []);
 
+  // não está desaparecendo automaticamente após deletar
   function deletarFarmacia(farma) {
     let resultado = farmacias.findIndex((farmacia) => farmacia.nomeFantasia == farma);
     farmacias.splice(resultado, 1);
