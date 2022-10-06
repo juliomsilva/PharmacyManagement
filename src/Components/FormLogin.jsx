@@ -39,8 +39,8 @@ export default function FormLogin() {
   }
   function RecuperarSenha(e) {
     const Autenticacao = JSON.parse(localStorage.getItem("Usuarios")) ?? [];
-    const encontrado = Autenticacao.find((user) => user.email === usuario.email);
-    console.log(encontrado);
+    // essa funcionalidade não está funcionando porque a comparação não é com usuario.email, mas com recuperar.email
+    const encontrado = Autenticacao.find((user) => user.email === recuperar.email);
     if (encontrado) {
       alert(`Sua senha é: ${encontrado.senha}`);
     } else {
