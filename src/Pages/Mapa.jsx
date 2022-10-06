@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
 import { useState, useEffect } from "react";
-import trashBlack from "../Images/trashBlack.png";
+import trashBlack from "../Images/trash.png";
 import HomePageNav from "../Components/HomePageNav";
 export default function Mapa() {
   let farmacias = JSON.parse(localStorage.getItem("Farmacias")) ?? [];
